@@ -1,6 +1,6 @@
 Original data is from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. It has two data sets, training and test, in folder train and test, respectively. Each data set contains 561 features as in file features.txt.
 
-Script run_analysis.R generates a tidy data set (tidy_data.csv) described as the following, see README.md for details.
+Script run_analysis.R generates a tidy data set (tidy_data.txt) described as the following, see README.md for details.
 
 "activity_label" - activity of subjects which can be one of these:
     WALKING

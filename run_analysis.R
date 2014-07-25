@@ -27,4 +27,4 @@ activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", sep=" ", co
 data <- merge(activity_labels, db)
 # Creates a data set with the average of each variable for each activity and each subject
 result <- aggregate(data[, 4:66], data[, 2:3], FUN=mean)
-write.csv(result, "tidy_data.csv", row.names=FALSE)
+write.csv(result, "tidy_data.txt", row.names=FALSE)

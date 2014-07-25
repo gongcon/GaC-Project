@@ -8,4 +8,4 @@ This script analyzes the data (https://d396qusza40orc.cloudfront.net/getdata%2Fp
 5. Merges the training and the test sets to create one data set.
 6. Uses descriptive activity names to name the activities in the data set.
 7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-8. Outputs the tidy data set to tidy_data.csv file.
+8. Outputs the tidy data set to tidy_data.txt file.
